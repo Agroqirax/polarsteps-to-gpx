@@ -1,0 +1,4 @@
+{
+  "terminal.integrated.cwd": "${workspaceFolder}/src",
+  "liveServer.settings.root": "/src"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 0,
+  "username": "JohnDoe",
+  "first_name": "John",
+  "last_name": "Doe",
+  "living_location": {
+    "id": 0,
+    "name": "London",
+    "detail": "United Kingdom",
+    "full_detail": "United Kingdom",
+    "country_code": "GB",
+    "lat": 51.5052432,
+    "lon": -0.1281834,
+    "venue": null,
+    "uuid": "00000000-0000-0000-0000-000000000000"
+  },
+  "living_location_name": "London, United Kingdom",
+  "locale": "en_GB",
+  "profile_image_path": "https://polarsteps.s3.amazonaws.com/user_images/profile/large_thumb/u_0000000/00000000-0000-0000-0000-000000000000_00000000-0000-0000-0000-000000000000.jpg",
+  "profile_image_thumb_path": "https://polarsteps.s3.amazonaws.com/user_images/profile/small_thumb/u_0000000/00000000-0000-0000-0000-000000000000_00000000-0000-0000-0000-000000000000.jpg",
+  "description": "Lorem ipsum dolor sit amet.",
+  "unit_is_km": true,
+  "visibility": 0,
+  "temperature_is_celsius": true,
+  "email": "example@gmail.com",
+  "saved_spots": [],
+  "saved_guides": [],
+  "google_id": null,
+  "fb_id": null,
+  "currency": "GBP",
+  "uuid": "00000000-0000-0000-0000-000000000000"
+}
