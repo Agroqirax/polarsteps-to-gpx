@@ -125,7 +125,7 @@ function createGPXDocument() {
   metadataAuthorName.textContent = "Trip to GPX Converter";
   metadataAuthorLink.setAttribute(
     "href",
-    "https://agroqirax.github.io/polarsteps-to-gpx"
+    "https://github.com/agroqirax/polarsteps-to-gpx"
   );
   metadataAuthor.appendChild(metadataAuthorName);
   metadataAuthor.appendChild(metadataAuthorLink);

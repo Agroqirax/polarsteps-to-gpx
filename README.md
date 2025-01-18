@@ -7,7 +7,7 @@ Convert polarsteps data export to GPX file
 [Download a copy of your data](https://support.polarsteps.com/article/124-how-can-i-export-a-copy-of-my-data)
 
 Upload the zip to the website
-<https://agroqirax.github.io/polarsteps-to-gpx>
+<https://agroqirax.github.io/polarsteps-to-gpx/src>
 
 > [!WARNING]
 > DO NOT upload data exports to any website unless you trust the author as the export may contain personal information.<br>
