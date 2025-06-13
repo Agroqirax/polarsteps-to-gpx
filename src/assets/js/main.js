@@ -8,8 +8,17 @@ document
     const fileInput = document.getElementById("fileupload");
     const file = fileInput.files[0];
 
+    const submitButton = event.target.querySelector('button[type="submit"]');
+    // Save original button content
+    const originalButtonContent = submitButton.innerHTML;
+    // Disable button and show spinner
+    submitButton.disabled = true;
+    submitButton.innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Processing...`;
+
     if (!file) {
       alert("Please upload a ZIP file.");
+      submitButton.disabled = false;
+      submitButton.innerHTML = originalButtonContent;
       return;
     }
 
@@ -94,6 +103,10 @@ document
     } catch (error) {
       console.error("Error processing ZIP file:", error);
       alert("An error occurred while processing the ZIP file.");
+    } finally {
+      // Re-enable button and restore content
+      submitButton.disabled = false;
+      submitButton.innerHTML = originalButtonContent;
     }
   });
 
