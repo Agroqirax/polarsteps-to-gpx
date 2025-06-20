@@ -4,37 +4,14 @@ Convert polarsteps data export to GPX file
 
 ## Usage
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=downloadcached" />
-
-<style>
-  .cta-button {
-    background-color: #de2b52 !important;
-    color: white !important;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none !important; 
-    transition: background-color 0.3s ease;
-  }
-
-  .cta-button:hover {
-    background-color: #a51f3c !important;
-  }
-  .material-symbols-outlined {
-    vertical-align: middle;
-  }
-</style>
-
 Step 1:
 <br><br>
-<a class="cta-button" href="https://support.polarsteps.com/article/124-how-can-i-export-a-copy-of-my-data"><span class="material-symbols-outlined">download</span> Download a copy of your data</a>
+<a style="background-color:#de2b52;color:white;padding:10px 20px;cursor:pointer;border-radius:5px;text-decoration:none;transition:background-color 0.3s ease;" href="https://support.polarsteps.com/article/124-how-can-i-export-a-copy-of-my-data"><svg style="vertical-align:middle;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Download a copy of your data</a>
 <br>
 
 Step 2:
 <br><br>
-<a class="cta-button" href="https://agroqirax.github.io/polarsteps-to-gpx/src"><span class="material-symbols-outlined">
-cached
-</span> Upload the zip file to the website</a><br><br>
+<a style="background-color:#de2b52;color:white;padding:10px 20px;cursor:pointer;border-radius:5px;text-decoration:none;transition:background-color 0.3s ease;" href="https://agroqirax.github.io/polarsteps-to-gpx/src"><svg style="vertical-align:middle;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M482-160q-134 0-228-93t-94-227v-7l-64 64-56-56 160-160 160 160-56 56-64-64v7q0 100 70.5 170T482-240q26 0 51-6t49-18l60 60q-38 22-78 33t-82 11Zm278-161L600-481l56-56 64 64v-7q0-100-70.5-170T478-720q-26 0-51 6t-49 18l-60-60q38-22 78-33t82-11q134 0 228 93t94 227v7l64-64 56 56-160 160Z"/></svg> Upload the zip file to the website</a><br><br>
 
 > [!WARNING]
 > DO NOT upload data exports to any website unless you trust the author, as they may contain private information.<br>
